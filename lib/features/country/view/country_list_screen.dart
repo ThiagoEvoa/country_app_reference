@@ -10,6 +10,12 @@ class CountryListScreen extends ConsumerStatefulWidget {
 
 class _CountryListScreenState extends ConsumerState<CountryListScreen> {
   @override
+  void initState() {
+    super.initState();
+    FlutterNativeSplash.remove();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return const Scaffold();
   }

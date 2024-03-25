@@ -1,5 +1,4 @@
 import './core/core.dart';
-import './features/features.dart';
 
 void main() {
   WidgetsBinding widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return MaterialApp.router(
       title: 'Country App',
       darkTheme: appThemeDark,
       theme: appThemeLight,
@@ -25,7 +24,7 @@ class MyApp extends StatelessWidget {
       supportedLocales: const [
         Locale('en', ''),
       ],
-      home: const CountryListScreen(),
+      routerConfig: router,
     );
   }
 }
