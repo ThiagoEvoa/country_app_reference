@@ -5,8 +5,15 @@ final GoRouter router = GoRouter(
   routes: [
     GoRoute(
       path: '/',
-      builder: (BuildContext context, GoRouterState state) =>
-          const CountryListScreen(),
+      builder: (context, state) => const CountryListScreen(),
+      routes: [
+        GoRoute(
+          path: 'detail',
+          builder: (context, state) => CountryDetailScreen(
+            country: state.extra as Country,
+          ),
+        ),
+      ],
     ),
   ],
 );

@@ -10,8 +10,8 @@ class Translations {
 
   String getTranslation(String sid) {
     switch (sid) {
-      case 'hello':
-        return appLocalizations?.hello ?? '';
+      case 'countries':
+        return appLocalizations?.countries ?? '';
       default:
         return '';
     }

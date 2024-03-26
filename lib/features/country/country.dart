@@ -1,4 +1,4 @@
-export 'model/country.dart';
-export 'repository/country_repository.dart';
-export 'view/country_list_screen.dart';
-export 'view_model/country_view_model.dart';
+export 'model/model.dart';
+export 'repository/repository.dart';
+export 'view/view.dart';
+export 'view_model/view_model.dart';

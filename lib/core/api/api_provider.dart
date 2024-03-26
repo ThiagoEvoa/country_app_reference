@@ -1,6 +1,6 @@
 import '../core.dart';
 
-part 'dio_provider.g.dart';
+part 'api_provider.g.dart';
 
 @riverpod
 Dio dio(DioRef ref) {
