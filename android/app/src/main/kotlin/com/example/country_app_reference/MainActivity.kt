@@ -1,4 +1,4 @@
-package com.example.country_app_reference
+package com.evoa.country_app_reference
 
 import io.flutter.embedding.android.FlutterActivity
 

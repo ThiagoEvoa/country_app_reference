@@ -89,11 +89,11 @@ BEGIN
     BEGIN
         BLOCK "040904e4"
         BEGIN
-            VALUE "CompanyName", "com.example" "\0"
+            VALUE "CompanyName", "com.evoa" "\0"
             VALUE "FileDescription", "country_app_reference" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "country_app_reference" "\0"
-            VALUE "LegalCopyright", "Copyright (C) 2024 com.example. All rights reserved." "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2024 com.evoa. All rights reserved." "\0"
             VALUE "OriginalFilename", "country_app_reference.exe" "\0"
             VALUE "ProductName", "country_app_reference" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
